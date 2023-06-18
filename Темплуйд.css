@@ -1,0 +1,291 @@
+body{
+ margin: 0px;  
+ background-color: black; 
+ font-family: "Montserrat", sans-serif;
+ color: white; 
+}
+h1{
+ font-size: 30px;
+}
+.container {
+ display: flex;
+}
+.leftMenu{
+ font-size: 25px;
+ height: 100vh;
+ background-color: #222;
+ position: fixed;
+}
+.portfolio{
+ font-size: 25px;
+ border: 1px solid black;
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ padding: 24px;
+ margin-left: 150px;
+ align-items: center;  
+}
+.menu{ 
+ background-color: #222;
+ width: 150px;
+ height: 120px;
+ color: white;
+ border: none;
+ font-size: 20px;
+}
+.menu img{
+ width: 40px;
+ height: 40px;
+}
+.menu:hover{
+ background-color: black;
+}
+p, button, input {
+ font-family: inherit;
+}
+.line{
+ border: 1px solid #757575;
+ width: 20%; 
+ margin: 10px 0px ;  
+}
+.JD{
+ font-size: 90px;
+ margin: 10px;
+ text-align: center;
+ padding-top: 50px ; 
+}
+.my_name{
+ padding-top: 100px ;
+ font-size: 40px;
+ padding-bottom: 10px;
+ margin-bottom: 10px;
+}
+.myWork{
+ text-align: center;
+ margin: 15px;
+ font-size: 20px;
+}
+.myPhoto{
+ justify-content: center;
+ width:53%;
+}
+.aboutMe{
+ display: flex;
+ flex-direction: column;
+ width: 53%;
+}
+.text{
+ color: #757575;
+ font-family: "Montserrat", sans-serif !important;
+ font-size: 20px;
+ line-height: 1.5;
+}
+.letter-spacing{
+ letter-spacing:5px
+}
+.strip{
+ display: flex;
+}
+.skillLevel_Photography{
+ height: 35px;
+ width: 95%;
+ background-color: #616161;
+}
+.skillLevel_PhotographyNr2{
+ height: 35px;
+ width: 5%;
+ background-color: #fff;
+}
+.skillLevel_Web_Design{
+ height: 35px;
+ width: 85%;
+ background-color: #616161;
+}
+.skillLevel_Web_DesignNr2{
+ height: 35px;
+ width: 15%;
+ background-color: #fff;
+}
+.skillLevel_Photoshop{
+ height: 35px;
+ width: 80%;
+ background-color: #616161;
+}
+.skillLevel_PhotoshopNr2{
+ height: 35px;
+ width: 20%;
+ background-color: #fff;
+}
+.workDone{
+ display: flex;
+ background-color: white;
+ height: 160px;
+ margin-top:50px ;
+ flex-direction: row;
+}
+.done{
+ text-align: center;
+ height: 100%;
+ width: 25%;
+ justify-content: center; 
+ display: flex; 
+ align-items: center; 
+ color: black;
+}
+.dowland_resume{
+ background-color: #fff;
+ color: black;
+ width: 275px;
+ height: 60px;
+ text-align: left;
+ font-size: 20px;
+ text-align: center;
+ margin-bottom: 30px;
+ border: none;
+}
+.dowland_resume:hover{
+ opacity: 0.9;
+}
+.button_Position{
+ margin-top:40px ;
+}
+.My_Price{
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+ padding-bottom: 60px;
+}
+.price_tag{  
+ background-color: #ffffff;
+ width: 49%;
+ height: 670px;
+ opacity: .6;
+}
+.price_tag:hover{
+ opacity: .9;
+}
+.table{   
+ width: 100%;
+ border: 1px   solid #eeeeee ;
+ color: #030303;
+ height: 100%;
+ flex: 1;
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
+ text-align: center;
+}
+.table:nth-child(1) {
+ height: 20%;
+ background-color: #616161;
+ color: #fff; 
+ font-size: 30px; 
+} 
+.table:nth-child(2),
+.table:nth-child(3),
+.table:nth-child(4),
+.table:nth-child(5) {
+ height: 9%;
+ font-size: 18px;
+}
+.table:nth-child(6){
+ height: 24%;
+}
+.table:nth-child(7) {
+ height: 20%;   
+ background-color: #e6e6e6;
+}
+.button_Sign_up{
+ width: 20%;
+ height: 50%;
+ border: none;
+ font-size: 70%;
+}
+.button_Sign_up:hover{
+ background-color: #030303;
+ color: #fff;
+}
+.photo_Reputation img{
+ border-radius: 50%;
+ width: 100px;
+ margin-right: 25px;
+}
+.My_gallery{
+ display: flex;
+ justify-content: space-between;
+}
+.gallery{
+ width: 49%;
+}
+.Meine_Fotos{
+ width: 100%;
+ margin-bottom: 10px;
+}
+.input{
+ background-color: white;
+ height: 65px;
+ width: 100%;
+ margin-top: 8px;
+ margin-bottom: 8px;
+ display: flex;
+}
+input{
+ border: 0px;
+ width: 100%;
+ height: 80%;
+ padding: 5px;
+ font-size: 18px;
+}
+.send_message{
+ background-color: #fff;
+ width: 22%;
+ height: 65px;
+ margin-top: 8px ;
+ font-size: 20px;
+ border: none;
+}
+.send_message:hover{
+ opacity: 0.9;
+}
+.icon_dowland{
+ width: 10%;
+ height: 50%;
+}
+.icon{
+ width: 50px;
+ height: 50px;
+ padding-right: 50px;
+}
+.icon_position{
+ display: flex;
+ text-align: center;
+}
+.my_Reputation{
+ display: flex;
+ color: #989898;
+ font-size: 20px;    
+}
+#photos{
+ padding-top:200px ;
+}
+#contact{
+ padding-top:150px ;
+}
+.text_send_messege{
+ font-size: 20px;
+ color: #939393;
+}
+.social_networks{
+ display: flex;
+ padding-top: 100px;
+}
+.social_networks_img{
+ width: 30px;
+ height: 30px;
+ padding: 10px;
+}
+.powered_by_w3{
+ color: #989898;
+ font-size: 20px;
+}
